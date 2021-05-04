@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(315deg, #485461 0%, #28313b 74%) no-repeat center fixed;
+  background-size: cover;
+  color: #eee;
+}
+
+h1 {
+  margin:.5em;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+.training {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .training {
+    flex-wrap: wrap;
+  }
+  .training iframe {
+    max-width: 100%;
+    padding: .5em;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  form {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}
+
+form {
+  border:2px solid #eee;
+  background-color: rgb(32, 32, 32);
+  box-shadow: 5px 5px 5px black;
+  padding: .5em;
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  margin:20px auto;
+}
+
+form > * {
+  margin : .1em;
+}
+
+button {
+  background-color:#111D4A;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: .5em;
+  font-size: 1.3rem;
+  color:#eee;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+input[type="number"] {
+  border:none;
+  font-family: 'Oswald', sans-serif;
+  /* text-align:center; */
+  font-size: 1.3rem;
+  padding: .5em;
+  border-radius: 5px;
+  display: inline;
+  width: 60px;
+}
+
+button:hover {
+  color: #111D4A;
+  background-color: #eee;
+  border: 2px solid black;
+}
