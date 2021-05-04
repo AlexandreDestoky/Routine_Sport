@@ -1,47 +1,62 @@
 let trainingDays = [
-  ["https://youtu.be/C8DbCZGj5KQ","https://youtu.be/c1mdorMppH4"],
-  ["https://youtu.be/SML-fA6EJh4","https://youtu.be/ldrG5GTgF_0"],
-  ["https://youtu.be/lyb7UAtsq4w","https://youtu.be/5oG8cMfKx9I"],
-  ["https://youtu.be/ISk3x9E7ars","https://youtu.be/qgjdta2jyxw"],
-  ["https://youtu.be/30c8d9smbsE","https://youtu.be/BKfGWNTssCY"], //5
-  ["https://youtu.be/MCvE258aPv0","https://youtu.be/CnfitL4Rl0o"],
-  ["https://youtu.be/oAPCPjnU1wA","https://youtu.be/igJrhW-GbNY"],
-  ["https://youtu.be/tCtS-hNs6rk","https://youtu.be/c1mdorMppH4"],
-  ["https://youtu.be/A3b5sXtf6rc","https://youtu.be/SML-fA6EJh4"],
-  ["https://youtu.be/ldrG5GTgF_0","https://youtu.be/-lO1pgoES74"], //10
-  ["https://youtu.be/lyb7UAtsq4w","https://youtu.be/5oG8cMfKx9I"],
-  ["https://youtu.be/GfUpbhaCK7Y","https://youtu.be/Irob_m12znc"],
-  ["https://youtu.be/eQKzCem0eUs","https://youtu.be/igJrhW-GbNY"],
-  ["https://youtu.be/PfATi3Tp5Go","https://youtu.be/c1mdorMppH4"],
-  ["https://youtu.be/C8DbCZGj5KQ","https://youtu.be/xngUfoWLkFw"], //15
-  ["https://youtu.be/mm47bCaCzpQ","https://youtu.be/lyb7UAtsq4w"],
-  ["https://youtu.be/ISk3x9E7ars","https://youtu.be/WRGCCvQwCyQ"],
-  ["https://youtu.be/30c8d9smbsE","https://youtu.be/qgjdta2jyxw"],
-  ["https://youtu.be/CnfitL4Rl0o","https://youtu.be/GfUpbhaCK7Y"],
-  ["https://youtu.be/HzjVKXKzpNY","https://youtu.be/BKfGWNTssCY"], //20
-  ["https://youtu.be/C8DbCZGj5KQ","https://youtu.be/C8DbCZGj5KQ"],
-  ["https://youtu.be/qgjdta2jyxw","https://youtu.be/c1mdorMppH4"],
-  ["https://youtu.be/SML-fA6EJh4","https://youtu.be/_q_-adYzkh0"],
-  ["https://youtu.be/ldrG5GTgF_0","https://youtu.be/-lO1pgoES74"],
-  ["https://youtu.be/5oG8cMfKx9I","https://youtu.be/lyb7UAtsq4w"], //25
-  ["https://youtu.be/ISk3x9E7ars","https://youtu.be/igJrhW-GbNY"],
-  ["https://youtu.be/lmgeM9Ne-Ns","https://youtu.be/BKfGWNTssCY"],
-  ["https://youtu.be/qgjdta2jyxw","https://youtu.be/eQKzCem0eUs"],
-  ["https://youtu.be/oAPCPjnU1wA","https://youtu.be/C8DbCZGj5KQ"],
-  ["https://youtu.be/30c8d9smbsE","https://youtu.be/mm47bCaCzpQ"],//30
-  ["https://youtu.be/CnfitL4Rl0o","https://youtu.be/ISk3x9E7ars"],
-  ["https://youtu.be/5oG8cMfKx9I","https://youtu.be/lyb7UAtsq4w"],
-  ["https://youtu.be/tCtS-hNs6rk","https://youtu.be/qgjdta2jyxw"],
-  ["https://youtu.be/Auo8veVyRIY","https://youtu.be/BKfGWNTssCY"],
-  ["https://youtu.be/lmgeM9Ne-Ns","https://youtu.be/c1mdorMppH4"], //35
-  ["https://youtu.be/Irob_m12znc","https://youtu.be/qgjdta2jyxw"],
-  ["https://youtu.be/C8DbCZGj5KQ","https://youtu.be/C8DbCZGj5KQ"],
-  ["https://youtu.be/tCtS-hNs6rk","https://youtu.be/MCvE258aPv0"],
-  ["https://youtu.be/ISk3x9E7ars"," https://youtu.be/ISk3x9E7ars"],
-  ["https://youtu.be/30c8d9smbsE","https://youtu.be/30c8d9smbsE"], //40
-  ["https://youtu.be/eQKzCem0eUs","https://youtu.be/c1mdorMppH4"],
-  ["https://youtu.be/oAPCPjnU1wA","https://youtu.be/Auo8veVyRIY"],
-  ["https://youtu.be/C8DbCZGj5KQ","https://youtu.be/Vfv084H00QI"],
-  ["https://youtu.be/tCtS-hNs6rk","https://youtu.be/GflOdkA5nS0"],
-  ["https://youtu.be/xngUfoWLkFw","https://youtu.be/BKfGWNTssCY"],//45
-]
+  ["C8DbCZGj5KQ", "c1mdorMppH4"],
+  ["SML-fA6EJh4", "ldrG5GTgF_0"],
+  ["lyb7UAtsq4w", "5oG8cMfKx9I"],
+  ["ISk3x9E7ars", "qgjdta2jyxw"],
+  ["30c8d9smbsE", "BKfGWNTssCY"], //5
+  ["MCvE258aPv0", "CnfitL4Rl0o"],
+  ["oAPCPjnU1wA", "igJrhW-GbNY"],
+  ["tCtS-hNs6rk", "c1mdorMppH4"],
+  ["A3b5sXtf6rc", "SML-fA6EJh4"],
+  ["ldrG5GTgF_0", "-lO1pgoES74"], //10
+  ["lyb7UAtsq4w", "5oG8cMfKx9I"],
+  ["GfUpbhaCK7Y", "Irob_m12znc"],
+  ["eQKzCem0eUs", "igJrhW-GbNY"],
+  ["PfATi3Tp5Go", "c1mdorMppH4"],
+  ["C8DbCZGj5KQ", "xngUfoWLkFw"], //15
+  ["mm47bCaCzpQ", "lyb7UAtsq4w"],
+  ["ISk3x9E7ars", "WRGCCvQwCyQ"],
+  ["30c8d9smbsE", "qgjdta2jyxw"],
+  ["CnfitL4Rl0o", "GfUpbhaCK7Y"],
+  ["HzjVKXKzpNY", "BKfGWNTssCY"], //20
+  ["C8DbCZGj5KQ", "C8DbCZGj5KQ"],
+  ["qgjdta2jyxw", "c1mdorMppH4"],
+  ["SML-fA6EJh4", "_q_-adYzkh0"],
+  ["ldrG5GTgF_0", "-lO1pgoES74"],
+  ["5oG8cMfKx9I", "lyb7UAtsq4w"], //25
+  ["ISk3x9E7ars", "igJrhW-GbNY"],
+  ["lmgeM9Ne-Ns", "BKfGWNTssCY"],
+  ["qgjdta2jyxw", "eQKzCem0eUs"],
+  ["oAPCPjnU1wA", "C8DbCZGj5KQ"],
+  ["30c8d9smbsE", "mm47bCaCzpQ"], //30
+  ["CnfitL4Rl0o", "ISk3x9E7ars"],
+  ["5oG8cMfKx9I", "lyb7UAtsq4w"],
+  ["tCtS-hNs6rk", "qgjdta2jyxw"],
+  ["Auo8veVyRIY", "BKfGWNTssCY"],
+  ["lmgeM9Ne-Ns", "c1mdorMppH4"], //35
+  ["Irob_m12znc", "qgjdta2jyxw"],
+  ["C8DbCZGj5KQ", "C8DbCZGj5KQ"],
+  ["tCtS-hNs6rk", "MCvE258aPv0"],
+  ["ISk3x9E7ars", "ISk3x9E7ars"],
+  ["30c8d9smbsE", "30c8d9smbsE"], //40
+  ["eQKzCem0eUs", "c1mdorMppH4"],
+  ["oAPCPjnU1wA", "Auo8veVyRIY"],
+  ["C8DbCZGj5KQ", "Vfv084H00QI"],
+  ["tCtS-hNs6rk", "GflOdkA5nS0"],
+  ["xngUfoWLkFw", "BKfGWNTssCY"], //45
+];
+
+const mainTraining = document.querySelector(".mainTraining iframe");
+const secondTraining = document.querySelector(".secondTraining iframe");
+const formulaire = document.querySelector("form");
+const jour = document.querySelector("input[type='number']");
+let titre = document.querySelector("h1");
+
+formulaire.addEventListener("submit", (e) => {
+  e.preventDefault();
+  if (jour.value <= 45 && jour.value >= 1) {
+    mainTraining.src = "https://www.youtube.com/embed/" + trainingDays[jour.value - 1][0];
+    secondTraining.src = "https://www.youtube.com/embed/" + trainingDays[jour.value - 1][1];
+    titre.textContent = "Jour N°: " + jour.value;
+  }
+});
